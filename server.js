@@ -232,7 +232,7 @@ const sendMail = async () => {
 sendMail()
 
 // Start the server
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
 
