@@ -1,0 +1,21 @@
+body{
+    background-color:aliceblue !important;
+}
+
+.butto-sub{
+    background-color: #7bb0ff !important;
+    color: whitesmoke !important;
+}
+
+button:focus:not(:focus-visible) {
+    outline: none !important;
+}
+
+.accordion-button:focus {
+    --bs-accordion-btn-focus-border-color: unset !important;
+    --bs-accordion-btn-focus-box-shadow:  unset !important;
+    z-index: 3;
+    border-color: var(--bs-accordion-btn-focus-border-color) !important;
+    outline: none !important;
+    box-shadow: var(--bs-accordion-btn-focus-box-shadow) !important;
+}
